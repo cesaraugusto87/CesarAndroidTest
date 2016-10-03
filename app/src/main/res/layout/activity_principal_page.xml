@@ -19,7 +19,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="157dp"
-        android:id="@+id/username" />
+        android:id="@+id/username"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
 
     <TextView
         android:text="@string/user_name"
@@ -61,5 +63,5 @@
         tools:text="Iniciar Sesion"
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
-        android:onClick="showNextPage()" />
+        android:onClick="showNextPage" />
 </RelativeLayout>
