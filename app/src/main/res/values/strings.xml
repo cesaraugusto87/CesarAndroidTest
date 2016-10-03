@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidTestApp</string>
+    <string name="user_name">Nombre de Usuario</string>
+</resources>
